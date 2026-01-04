@@ -1,2 +1,16 @@
-# From-Characters-to-Bytes-Basic-Tokenization-Strategies-in-Large-Language-Models
-This repository explores how Large Language Models tokenize text, starting from character-level tokenization and progressing through word-level, subword (WordPiece), SentencePiece, and byte-level BPE tokenization.  Each method is demonstrated with runnable Python code using the same input text
+# Tokenization in LLMs — A Code-First Guide
+
+This repository demonstrates the **5 tokenization methods** used in Large Language Models (LLMs).  
+It focuses on helping learners see **how text is converted into tokens and token IDs** across different approaches.
+
+## What’s Inside
+
+The notebook explores five tokenization strategies:
+
+1. **Character-level** — every character is a token.
+2. **Word-level** — splits text into words (prone to OOV issues).
+3. **WordPiece (BERT-style)** — subword tokens for better vocabulary coverage.
+4. **SentencePiece / Unigram** — language-agnostic subwords suitable for multilingual text.
+5. **Byte-level BPE (GPT-style)** — robust byte-level tokens, no OOV.
+
+
